@@ -13,13 +13,6 @@ DELETE | `/agenda/deletar/:id` |	Deleta um contato a partir de um id.
 UT | `/agenda/atualizar/:id` |	Atualiza completamente o contato.
 PUT | `/agenda/atualizar/telefone/:id` |	Atualiza somente telefone do contato por id específico.
 
-### Collection
-id: autogerado e obrigatório
-nome: texto e obrigatório
-celular: texto e obrigatório
-dataNascimento: data e obrigatório
-fotoPerfil: texto e não obrigatório
-
 ### Ferramentas utilizadas
 
 * Node.js
